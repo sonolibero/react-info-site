@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>titolone</h1>, document.getElementById("root"))
