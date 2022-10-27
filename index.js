@@ -1,7 +1,16 @@
-function Page() {
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
+
+function MainContent() {
     return (
         <div>
-            <img src="./react-logo.png" width="40px" />
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -10,6 +19,24 @@ function Page() {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+        </div>
+    )
+}
+
+function Footer() {
+    return (
+        <footer>
+            <small>© 2022 clod. All rights reserved.</small>
+        </footer>
+    )
+}
+
+function Page() {
+    return (
+        <div>
+        <Header />
+        <MainContent />
+        <Footer />
         </div>
     )
 }
