@@ -1,7 +1,7 @@
 function Page() {
     return (
         <div>
-            <img src="./react-logo.png" width="40px"></img>
+            <img src="./react-logo.png" width="40px" />
             <h1>Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -13,6 +13,5 @@ function Page() {
         </div>
     )
 }
-
 
 ReactDOM.render(<Page />, document.getElementById("root"))
